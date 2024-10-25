@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Neto - Desenvolvedor Frontend</title>
+    
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/font-awesome.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="/">
+                    <h1><i class="fas fa-square-full"></i>Antonio Neto</h1>
+                    <h2>/ DEV FRONTEND</h2>
+                </a>
+            </div>
+            
+
+            <nav>
+                <input type="checkbox" id="menu-hamburguer"/>
+
+                <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+                </label>
+            
+                <ul>
+                    <li><a href="#sobre">SOBRE MIM</a></li>
+                    <li><a href="src/curriculo/CV-Antonio Neto.pdf" download="CV-Antonio Neto.pdf">CURRÍCULO</a></li>
+                    <li><a href="#projetos">PROJETOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about" id="sobre">
+    <div class="perfil">
+        <img class="foto-perfil" src="src/image/foto-perfil.jpg" alt="fotoperfil">
+        
+        <h1>Antonio Neto</h1>
+        <h3>D E S E N V O L V E D O R<br>W E B</h3>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/antonioxaneto/" target="_blank" rel="external">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/antonioxaneto" target="_blank" rel="external">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/5577999384918" target="_blank" rel="external">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="perfil-descricao">
+        <h1>Olá</h1>
+        <h3>Meu perfil e meus projetos</h3>
+        
+        <div>
+            <a href="src/curriculo/CV-Antonio Neto.pdf" download="CV-Antonio Neto.pdf"><input class="btn-1" type="button" value="BAIXAR CV"></a>
+            <a href="#projetos"><input class="btn-2" type="button" id="projects" value="PROJETOS"></a>
+        </div>
+        
+
+        <p>
+            Sou um Desenvolvedor Frontend Júnior em formação, buscando crescer na área. Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação, além de compartilhar meus conhecimentos!
+        </p>   
+        
+        <p>
+            Atualmente estou estudando desenvolvimento Frontend e algumas outras tecnologias que complementam esse processo, como HTML, CSS, JS, React, Git e GitHub, e também Testes de Software com Jest. Meu objetivo é me tornar um profissional competente, relevante na área de tecnologia.
+        </p>
+    </div>
+    </section>
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus projetos</h2>
+
+        <p class="descricao-paragrafo">Aqui ficam apenas alguns projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor.
+        Esses projetos serão subtituídos por novos conforme o avanço das minhas habilidades.
+        Caso deseje verificar todos os meus repositórios, é só clicar no OctoCat ao lado: <a href="https://github.com/antonioxaneto?tab=repositories" target="_blank"><i class="fab fa-github-alt"></i></a></p>
+
+        <div class="container-projetos">
+            <div class="projeto ativo">
+              <a 
+                href="https://antonioxaneto.github.io/fetch-github-api/"
+                target="_blank"
+              >
+                <img src="src/image/imagem-projeto-github.png" alt="Capa do projeto" />
+                <h3>Profile Search | GitHub-API</h3>
+    
+                <div class="informacoes-projeto">
+                  <p>
+                    Esse projeto foi feito com HTML, CSS e JavaScript. Nele eu aprimorei bastante as minhas habilidades em consumo de API's, em leitura de documentações e refatoração de código.
+                  </p>
+                  <br>
+                  <p>🔗 Ver no GitHub Pages</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a
+                  href="https://antonioxaneto.github.io/projeto-landing-page/"
+                  target="_blank"
+                >
+                  <img src="src/image/imagem-projeto-portfolio.png" alt="Capa do projeto" />
+                  <h3>Antonio Neto | Portfólio</h3>
+      
+                  <div class="informacoes-projeto">
+                    <p>
+                      Meu portfólio foi criado apenas usando HTML, CSS e JS, apesar de ser um projeto simples, é o mais organizado que já construí do total zero e sem nenhuma ajuda (me  orgulho disso).
+                      Continuarei atualizando-o com novos projetos cada vez mais
+                      complexos.
+                    </p>
+                    <br>
+                    <p>🔗 Ver no GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
+      
+              <div class="projeto ativo">
+                <a href="https://antonioxaneto.github.io/Sign-up-form/" target="_blank">
+                  <img src="src/image/imagem-projeto-sign-up-form.png" alt="Capa do projeto" />
+                  <h3>Projeto Sign-up Form</h3>
+      
+                  <div class="informacoes-projeto">
+                    <p>Projeto de formulário de inscrição em JS. Foi criado com intuito de aprimorar minhas habilidades, focando em duas áreas principais: validação e envio de formulário e manipulação do DOM.</p>
+                    <br>
+                    <p>🔗 Ver no GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
+              <div class="projeto ativo">
+                <a href="https://antonioxaneto.github.io/LandingPage/" target="_blank">
+                  <img src="src/image/imagem-projeto-landing-page-com-grid.png" alt="Capa do projeto" />
+                  <h3>Projeto LandingPage com Grid</h3>
+      
+                  <div class="informacoes-projeto">
+                    <p>
+                      Projeto usando HTML, CSS. Uma Landing page de uma Agência fictícia pra treinar alguns conhecimentos que vimos durante o curso DevQuest. Utilizei as propriedades flexbox e grid, que permitiram criar um layout responsivo e bem organizado.
+                    </p>
+                    <br>
+                    <p>🔗 Ver no GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="projeto">
+                <a href="#" target="_blank">
+                  <img src="src/image/imagem-projeto-landing-page.png" alt="Capa do projeto" />
+                  <h3>Projeto LandingPage</h3>
+      
+                  <div class="informacoes-projeto">
+                    <p>Projeto usando HTML, CSS e JavaScript</p>
+                    <br>
+                    <p>🔗 Ver no GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
+    </section>
+
+    <button class="btn-mostrar-projetos">Mostrar mais</button>
+
+    <footer class="footer" id="contato">
+        <div class="info-item">
+            <span>Email</span>
+            <p><a href="#">contatoantonioneto@outlook.com.br</a></p>
+        </div>
+        
+        <div class="info-item">
+            <span>Telefone</span>
+            <p>(77) 9 9938-4918</p>
+        </div>
+
+        <div class="info-item">
+        <span>Redes Sociais</span>
+    
+        <div class="social">
+            <a href="https://www.linkedin.com/in/antonioxaneto/" target="_blank" title="Ir para o Linkedin">
+            <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/antonioxaneto" target="_blank" title="Ir para o Github">
+            <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/5577999384918" title="Enviar mensagem no whatsapp"
+            target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        </div>
+    </footer> 
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
